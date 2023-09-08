@@ -5,8 +5,7 @@ function ArticleList({ items }) {
   const navigate = useNavigate();
   const articleItem = (item) => {
     const articleItemClickHandler = (item) => {
-      console.log(item.id);
-      localStorage.setItem('clickedArticle',JSON.stringify(item))
+      localStorage.setItem('selectedArticle',JSON.stringify(item))
       navigate(`/article/${item.id}`)
     }
     return (

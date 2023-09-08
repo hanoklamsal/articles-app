@@ -1,83 +1,80 @@
 .article-section {
-    margin: 0 60px 60px 60px;
+  margin: 0 60px 60px 60px;
 }
 
 .article-section-title {
-    margin-top: 30px;
-    font-size: 32px;
+  margin-top: 30px;
+  font-size: 32px;
 }
 
 .article-section hr {
-    border-color: black;
-    margin-top: 5px;
-    margin-bottom: 20px;
+  border-color: black;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
-
-
 .article-list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    color: #2F2E41;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  color: #2f2e41;
 }
 
 .article-item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 350px;
-    height: 500px;
-    margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 350px;
+  height: 500px;
+  margin: 0 18px 30px 18px;
 }
 .article-image {
-    border-radius: 10px;
-    width: 100%; /* Set a width for the parent container */
-    max-width: 350px; /* Set a maximum width for the parent container (adjust as needed) */
-    height: 0; /* Create a square aspect ratio by setting the height to 0 */
-    padding-bottom: 100%; /* Use padding to maintain the square aspect ratio */
-    position: relative; /* Establish a positioning context for the child elements */
-    overflow: hidden; /* Hide any overflowing content */
+  border-radius: 10px;
+  width: 100%; /* Set a width for the parent container */
+  max-width: 350px; /* Set a maximum width for the parent container (adjust as needed) */
+  height: 0; /* Create a square aspect ratio by setting the height to 0 */
+  padding-bottom: 100%; /* Use padding to maintain the square aspect ratio */
+  position: relative; /* Establish a positioning context for the child elements */
+  overflow: hidden; /* Hide any overflowing content */
 }
 
 .article-image img {
-    width: 100%; /* Make the image take up the full width of its parent */
-    height: 100%; /* Make the image take up the full height of its parent */
-    object-fit: cover; /* Ensure the image covers the entire container without cropping */
-    position: absolute; /* Position the image absolutely within its parent */
-    top: 0; /* Position the image at the top of the container */
-    left: 0; /* Position the image at the left of the container */
+  width: 100%; /* Make the image take up the full width of its parent */
+  height: 100%; /* Make the image take up the full height of its parent */
+  object-fit: cover; /* Ensure the image covers the entire container without cropping */
+  position: absolute; /* Position the image absolutely within its parent */
+  top: 0; /* Position the image at the top of the container */
+  left: 0; /* Position the image at the left of the container */
 }
 
-.article-posted-date{
-    margin-top: 5px;
-    margin-left: 5px;
-    color: gray;
+.article-posted-date {
+  margin-top: 5px;
+  margin-left: 5px;
+  color: gray;
 }
-
 
 .article-title {
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  cursor: pointer;
 }
-
 
 .article-body {
-    margin-top: 10px;
-    margin-left: 5px;
-    text-align: justify;
-    height:40px;
-    overflow: hidden;
+  margin-top: 10px;
+  margin-left: 5px;
+  text-align: justify;
+  height: 40px;
+  overflow: hidden;
 }
 
-.more-articles-btn{
-    font-size: 32px;
-    cursor: pointer;
-    display: block;
-    margin: 0 auto;
-    background-color: #2F2E41;
-    color: white;
-    padding: 20px 80px 20px 80px;
-    border-radius: 10px;
+.more-articles-btn {
+  font-size: 32px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  background-color: #2f2e41;
+  color: white;
+  padding: 20px 80px 20px 80px;
+  border-radius: 10px;
 }

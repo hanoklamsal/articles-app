@@ -28,11 +28,18 @@
 }
 
 .article-header button {
+  height: 40px;
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-left: auto;
-  padding: 10px 40px 10px 40px;
+  padding: 15px;
   border: solid 2px #2F2E41;
   border-radius: 10px;
   background: none;
+  opacity: 0.7;
+  font-size: 18px;
 }
 
 
@@ -45,12 +52,31 @@
   color: #2F2E41;
 }
 
+.share-button:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+
 .title {
   font-size: 32px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
 .body {
   color: #9797A0;
   text-align: justify;
+  font-size: 24px;
+}
+
+
+.similar-articles-heading {
+  /* margin-left: 10px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top:solid 2px #2F2E41;
+  border-bottom:solid 2px #2F2E41;
+  padding: 10px;
+  font-size: 32px;
+  color: #2F2E41;
 }

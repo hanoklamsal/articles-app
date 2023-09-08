@@ -1,19 +1,18 @@
 .navbar-container {
     padding: 5px;
-    margin: 5px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 10px;
+    margin: 10px 50px 10px 50px;
+
 }
 .navigation-container {
-    margin-left: 300px;
+    margin-left: 250px;
 }
 
 .logo {
     font-weight: bold;
     font-size: 24px;
-    margin-left: 30px;
 }
 
 .nav-list {
@@ -34,7 +33,7 @@
 }
 
 .navbar-social-media-container {
-    margin-left: 110px;
+    margin-left: 115px;
     display: flex;
     justify-content: space-around;
 }
