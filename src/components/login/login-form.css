@@ -1,0 +1,120 @@
+.login-form-container {
+    height: 100vh;
+    width: 40vw;
+    background-color:#F3F2FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.form-heading {
+    font-size: 30px;
+}
+
+.form-sub-heading {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.form input{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: inherit;
+    border:none;
+    border-bottom: 2px solid gray;
+    font-weight: lighter;
+}
+
+.form input:nth-child(2){
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background: inherit;
+    border:none;
+    border-bottom: 2px solid gray;
+    font-weight: lighter;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.forgot-password-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.create-a-link-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.create-a-link-container a{
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+.btn1 {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 8px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: large;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #2a4048;
+    cursor: pointer;
+  }
+
+
+  .btn2 {
+    background: inherit;
+    border-radius: 6px;
+    padding: 8px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .btn2 img {
+    height: 30px;
+    width: 45px;
+  }
+
+  .password-mismatch {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 10px;
+  }

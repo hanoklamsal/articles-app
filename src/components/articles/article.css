@@ -1,0 +1,56 @@
+.image-container  {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.article-container {
+    margin: 0 50px 0 50px;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: beige;
+}
+
+
+.article-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px 0 30px 0;
+}
+
+.article-header button {
+  margin-left: auto;
+  padding: 10px 40px 10px 40px;
+  border: solid 2px #2F2E41;
+  border-radius: 10px;
+  background: none;
+}
+
+
+.author {
+  margin-left: 20px;
+}
+
+.posted-date {
+  margin-left: 20px;
+  color: #2F2E41;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.body {
+  color: #9797A0;
+  text-align: justify;
+}

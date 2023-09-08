@@ -1,0 +1,36 @@
+
+.footer-container  {
+    padding: 30px 100px 30px 100px;
+    background-color: #F3F2FF;
+}
+
+/* .footer-container ul {
+    margin: 30px 100px 30px 100px;
+} */
+
+
+.footer-container>div>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container>div>ul>li:nth-child(3) {
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-container>div>ul>li {
+    list-style: none;
+    width: 150px;
+}
+
+.footer-container>div>hr {
+    margin-top: 20px;
+    border: solid 1px black;
+}
+
+.social-media-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+} 

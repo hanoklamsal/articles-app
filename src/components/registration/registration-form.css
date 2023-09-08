@@ -1,0 +1,86 @@
+.create-account-form-container {
+    height: 100vh;
+    width: 40vw;
+    background-color:#F3F2FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.form-heading {
+    font-size: 30px;
+    text-align: center;
+}
+
+.form-sub-heading {
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form input{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: inherit;
+    border:none;
+    border-bottom: 2px solid gray;
+    font-weight: lighter;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+
+.btn1 {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 8px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: large;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #2a4048;
+    cursor: pointer;
+  }
+
+
+  .btn2 {
+    background: inherit;
+    border-radius: 6px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .btn2 img {
+    height: 30px;
+    width: 45px;
+  }
+
+  .password-mismatch {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 10px;
+  }
