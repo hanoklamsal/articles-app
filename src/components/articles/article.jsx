@@ -3,7 +3,7 @@ import NavBar from "../navbar/navbar";
 import "./article.css";
 import { useParams } from "react-router-dom";
 import { data } from "../home/articles/articles-json-data";
-import ArticleList from "../home/articles/article-list";
+import ArticleItem from "../home/articles/article-item";
 import share_icon from '../../assets/images/share-icon.png';
 
 function Article() {
@@ -34,7 +34,13 @@ function Article() {
         <p className="body">{selectedArticle.content}</p>
         <div>
           <h4 className="similar-articles-heading">Similar Articles</h4>
-          <ArticleList items={similarItems} />
+          <div className="similar-article-item">
+          {similarItems && similarItems.map((item)=>{
+    return (
+    <ArticleItem article={item}/>
+    )
+  })}
+          </div>
         </div>
       </div>
     </>
