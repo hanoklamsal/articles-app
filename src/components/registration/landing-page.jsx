@@ -3,6 +3,7 @@ import '../../app.css';
 import RegistrationForm from "./registration-form";
 
 function LandingPage() {
+  
   return (
     <div className="landing-page-container">
       <div className="landing-page-image-container">

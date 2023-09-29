@@ -43,15 +43,15 @@ const userlist= JSON.parse(localStorage.getItem('userData'))
 
   return (
     <div className="login-form-container">
+        <button className="login-btn2">
+          <img src={google_logo} alt="google-logo" />
+          Sign up with Google
+        </button>
       <form className="form" onSubmit={loginHandler}>
         <h2 className="form-heading">Welcome Back!</h2>
         <h4 className="form-sub-heading">
           Welcome back, please enter your details
         </h4>
-        <button className="btn2">
-          <img src={google_logo} alt="google-logo" />
-          Sign up with Google
-        </button>
         <div style={{textAlign:'center', marginTop:30}}>or</div>
         <div className="form-input">
           <input

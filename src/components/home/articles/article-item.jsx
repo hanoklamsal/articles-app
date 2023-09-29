@@ -3,13 +3,12 @@ import { useNavigate } from 'react-router-dom';
 
 const ArticleItem = ({article}) => {
     const navigate=useNavigate();
-    console.log(article);
     const articleItemClickHandler = (article) => {
       localStorage.setItem('selectedArticle',JSON.stringify(article))
       navigate(`/article/${article.id}`)
     }
     return (
-      <div className="article-item" key={article.id}>
+      <div className="article-item">
         <div className="article-image">
           <img src={article.imageUrl} alt="article-image" />
         </div>

@@ -10,7 +10,7 @@ function Article() {
 
   return (
     <div className="article-section">
-      <h4 className="article-section-title">Latest Articles</h4>
+      <h4 className="title">Latest Articles</h4>
       <hr />
       <ArticleList/>
       <button className="more-articles-btn">Load more articles</button>
