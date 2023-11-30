@@ -40,7 +40,7 @@ function AddPostForm({closeModal}) {
       <div className="modal-content">
         <div className="modal-header">
           <h2>Post Your Article</h2>
-          <span className="close" >
+          <span className="close" onClick={closeModal} >
             &times;
           </span>
         </div>
